@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Total Products Added To Cart = 6]]>
+    </line>
+    <line>
+      <![CDATA[Count Of Product After Removing = 4]]>
+    </line>
+    <line>
+      <![CDATA[Visibility Of Facebook Logo = true]]>
+    </line>
+    <line>
+      <![CDATA[Visibility of linkdin Logo = true]]>
+    </line>
+    <line>
+      <![CDATA[Title Of Inventory Page = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[Visibility Of Twitter Logo = true]]>
+    </line>
+    <line>
+      <![CDATA[Title Of Products = Products]]>
+    </line>
+    <line>
+      <![CDATA[Visibility of footer Text = © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-18T13:17:47 IST" name="Default suite" finished-at="2023-12-18T13:18:30 IST" duration-ms="43044">
+    <groups>
+      <group name="Sanity">
+        <method signature="Inventory_Page_2_Test.verifyappTitleTest()[pri:4, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifyappTitleTest" class="test_cases.Inventory_Page_2_Test"/>
+      </group> <!-- Sanity -->
+      <group name="Retesting">
+        <method signature="Inventory_Page_2_Test.verifytwitterLogoTest()[pri:5, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifytwitterLogoTest" class="test_cases.Inventory_Page_2_Test"/>
+        <method signature="Inventory_Page_2_Test.verifyproductsTitleTest()[pri:6, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifyproductsTitleTest" class="test_cases.Inventory_Page_2_Test"/>
+        <method signature="Inventory_Page_2_Test.verifyfooterTextTest()[pri:7, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifyfooterTextTest" class="test_cases.Inventory_Page_2_Test"/>
+      </group> <!-- Retesting -->
+      <group name="Regression">
+        <method signature="Inventory_Page_2_Test.verifyproductsTitleTest()[pri:6, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifyproductsTitleTest" class="test_cases.Inventory_Page_2_Test"/>
+        <method signature="Inventory_Page_2_Test.verifyfooterTextTest()[pri:7, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" name="verifyfooterTextTest" class="test_cases.Inventory_Page_2_Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-18T13:17:47 IST" name="Default test" finished-at="2023-12-18T13:18:30 IST" duration-ms="43044">
+      <class name="test_cases.Inventory_Page_2_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:17:47 IST" name="setup" finished-at="2023-12-18T13:17:52 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add6ProductsTest()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:17:52 IST" name="add6ProductsTest" finished-at="2023-12-18T13:17:53 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total Products Added To Cart = 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add6ProductsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:17:53 IST" name="closeBrowser" finished-at="2023-12-18T13:17:53 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:17:53 IST" name="setup" finished-at="2023-12-18T13:17:58 IST" duration-ms="4652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="remove2ProductsTest()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:17:58 IST" name="remove2ProductsTest" finished-at="2023-12-18T13:18:02 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Count Of Product After Removing = 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- remove2ProductsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:02 IST" name="closeBrowser" finished-at="2023-12-18T13:18:02 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:02 IST" name="setup" finished-at="2023-12-18T13:18:06 IST" duration-ms="4717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfacebookLogoTest()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:06 IST" name="verifyfacebookLogoTest" finished-at="2023-12-18T13:18:06 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility Of Facebook Logo = true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfacebookLogoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:06 IST" name="closeBrowser" finished-at="2023-12-18T13:18:07 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:07 IST" name="setup" finished-at="2023-12-18T13:18:11 IST" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylinkdinLogo()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:11 IST" name="verifylinkdinLogo" finished-at="2023-12-18T13:18:11 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of linkdin Logo = true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylinkdinLogo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:11 IST" name="closeBrowser" finished-at="2023-12-18T13:18:11 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:11 IST" name="setup" finished-at="2023-12-18T13:18:16 IST" duration-ms="4505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyappTitleTest()[pri:4, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:16 IST" name="verifyappTitleTest" finished-at="2023-12-18T13:18:16 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Of Inventory Page = Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyappTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:16 IST" name="closeBrowser" finished-at="2023-12-18T13:18:16 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:16 IST" name="setup" finished-at="2023-12-18T13:18:20 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytwitterLogoTest()[pri:5, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:20 IST" name="verifytwitterLogoTest" finished-at="2023-12-18T13:18:20 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility Of Twitter Logo = true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytwitterLogoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:20 IST" name="closeBrowser" finished-at="2023-12-18T13:18:21 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:21 IST" name="setup" finished-at="2023-12-18T13:18:25 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyproductsTitleTest()[pri:6, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:25 IST" name="verifyproductsTitleTest" finished-at="2023-12-18T13:18:25 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Of Products = Products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyproductsTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:25 IST" name="closeBrowser" finished-at="2023-12-18T13:18:25 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:25 IST" name="setup" finished-at="2023-12-18T13:18:30 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfooterTextTest()[pri:7, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:30 IST" name="verifyfooterTextTest" finished-at="2023-12-18T13:18:30 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of footer Text = © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfooterTextTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_cases.Inventory_Page_2_Test@26df6e3a]" started-at="2023-12-18T13:18:30 IST" name="closeBrowser" finished-at="2023-12-18T13:18:30 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test_cases.Inventory_Page_2_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
